@@ -102,7 +102,8 @@ def main():
     print(f"Wrote {out.name} with {len(files)} file(s):")
     for p in files:
         print(f"  {p.relative_to(ROOT).as_posix()}")
-    print("Send it to Marcus Wilhelm (Zulip DM or the batch-2 topic in #AskAnthropic).")
+    print("Send it to Marcus Wilhelm (Zulip DM, or the topic\n"
+          "#AskAnthropic > Call for contributions: batch 2, due Thu 09:00 UK).")
 
 
 if __name__ == "__main__":

@@ -1,6 +1,6 @@
 # Open problems for Anthropic: batch 2
 
-A template for writing up open problems for the second batch of questions that Iliad researchers and fellows send to Anthropic (November 2026). Coordinated by Marcus Wilhelm in Zulip #AskAnthropic.
+A template for writing up open problems for the second batch of questions that Iliad researchers and fellows send to Anthropic (November 2026). Coordinated by Marcus Wilhelm. Questions and discussion: [#AskAnthropic › Call for contributions: batch 2](https://alignment-theory.zulipchat.com/#narrow/channel/651941-AskAnthropic/topic/Call.20for.20contributions.3A.20batch.202.2C.20due.20Thu.2009.3A00.20UK/near/641228343) on the Iliad Zulip.
 
 **Deadline: Thursday 19 November 2026, 09:00 UK time** (Wednesday 01:00 in California).
 
@@ -14,7 +14,7 @@ This repository only holds the template and a packing script. **Submissions are 
 3. Fill it in. Define every symbol: the problem must make sense to someone who has never seen our Zulip. Fill in the metadata block, including any related unpublished work by group members.
 4. Check that it compiles: `latexmk -pdf <short-name>.tex`.
 5. Pack it: run `python3 make_archive.py` in the repository root. This writes `batch2-<folder>-<date>.zip` with the problem folders you added or changed, without build files or PDFs. To choose folders yourself: `python3 make_archive.py <folder> [<folder> ...]`.
-6. Send the zip to Marcus Wilhelm by Zulip DM, or post it in the batch-2 topic in #AskAnthropic.
+6. Send the zip to Marcus Wilhelm by Zulip DM, or post it in the [call-for-contributions topic](https://alignment-theory.zulipchat.com/#narrow/channel/651941-AskAnthropic/topic/Call.20for.20contributions.3A.20batch.202.2C.20due.20Thu.2009.3A00.20UK/near/641228343).
 
 A rough description posted in Zulip is also fine; we will format it and ask you to check the result.
 

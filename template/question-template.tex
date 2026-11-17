@@ -1,0 +1,76 @@
+% Template for one open problem in batch 2 of questions for Anthropic.
+% One file per problem (a problem may contain several related questions).
+% Put it in its own folder: problems/<topic>-<short-name>/<short-name>.tex
+% Build: latexmk -pdf <short-name>.tex
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{hyperref}
+\usepackage{cleveref}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{conjecture}{Conjecture}
+\newtheorem{question}{Question}
+\crefname{question}{Question}{Questions}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}{Remark}
+
+\title{<Short descriptive title>}
+\author{<Contributors, e.g. Jane Doe and John Roe>}
+\date{<Topic area> \quad\textbullet\quad \today}
+
+\begin{document}
+\maketitle
+
+\begin{description}
+  \item[Status:] open problem / conjecture / proposed direction
+  \item[Priority:] top question of the contributor(s) / other
+  \item[Batch 1:] new / refines batch-1 question <n.m> / replaces <n.m>
+  \item[Related unpublished work:] <names and titles of drafts by group members, or ``none known''>
+\end{description}
+
+\section*{Background}
+% Two to five paragraphs. Define every object and symbol. A reader who has
+% never seen our Zulip should be able to understand the question.
+
+\section*{Questions}
+
+\begin{question}\label{q:main}
+% Precise, self-contained statement. If there are natural variants with
+% stronger or weaker assumptions, state them as parts (a), (b), ...
+\end{question}
+
+\section*{What is known}
+% Partial results, with citations. Include unpublished results by group
+% members, credited by name. Say clearly what is still open.
+
+\section*{What would count as an answer}
+% A proof, a counterexample, a bound of a stated form, or a weaker variant
+% that would still be useful.
+
+\section*{Why it matters for alignment}
+% One to three sentences.
+
+\begin{thebibliography}{9}
+% \bibitem{key} Authors, \emph{Title}, venue, year, \href{https://arxiv.org/abs/XXXX.XXXXX}{arXiv:XXXX.XXXXX}.
+\end{thebibliography}
+
+\end{document}
+
+% ---------------------------------------------------------------------------
+% Prompt for contributors who use an agent to fill in this template:
+%
+%   Turn my notes below into a self-contained LaTeX problem using the attached
+%   template (question-template.tex).
+%   - Define every symbol; the statement must make sense without our Zulip.
+%   - Keep labels honest: conjectures are conjectures, proposed directions are
+%     not theorems. Do not invent results, citations or theorem numbers; write
+%     [CHECK] wherever you are unsure.
+%   - Give variants with stronger or weaker assumptions where natural.
+%   - Fill in "What is known" only from sources I gave you, and credit
+%     unpublished work by name.
+%   - Make sure the file compiles with latexmk -pdf.
+%   I will read and check the result before submitting it.
+% ---------------------------------------------------------------------------
